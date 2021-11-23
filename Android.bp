@@ -1,0 +1,17 @@
+android_app {
+
+    name: "HelloAosp",
+
+    vendor: true,
+
+    srcs: ["src/**/*.java"],
+
+    sdk_version: "current",
+    optimize: {
+        enabled: false,
+    },
+
+    certificate: "platform",
+    privileged: true,
+
+}
