@@ -22,15 +22,21 @@ public class BatteryLevelReceiver extends BroadcastReceiver {
 	
 		int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL, 0);
 		Log.i(TAG, "Level: " + level);
-		if (level >= 70){
+		if (level >= 80){
 			Log.i(TAG, "Broadcast: Full Battery");
 			bl.setFullAnimation();
-		} else if (level >= 30 && level < 70){
+		} else if (level >= 60 && level < 80){
+			Log.i(TAG, "Broadcast: High Battery");
+			bl.setHighAnimation();
+		} else if (level >= 40 && level < 60){
 			Log.i(TAG, "Broadcast: Middle Battery");
 			bl.setMiddleAnimation();
-		} else {
+		} else if (level >= 15 && level < 40){
 			Log.i(TAG, "Broadcast: Low Battery");
 			bl.setLowAnimation();
+		} else {
+			Log.i(TAG, "Broadcast: Empty Battery");
+			bl.setEmptyAnimation();
 		}
 
 		

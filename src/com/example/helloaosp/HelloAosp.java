@@ -78,6 +78,11 @@ public class HelloAosp extends Activity implements BroadcastListener
 	}
 	
 	@Override
+	public void setHighAnimation(){
+		img.setBackgroundResource(R.drawable.high_battery);
+	}
+	
+	@Override
 	public void setMiddleAnimation(){
 		img.setBackgroundResource(R.drawable.middle_battery);
 	}
@@ -85,5 +90,10 @@ public class HelloAosp extends Activity implements BroadcastListener
 	@Override
 	public void setLowAnimation(){
 		img.setBackgroundResource(R.drawable.low_battery);
+	}
+	
+	@Override
+	public void setEmptyAnimation(){
+		img.setBackgroundResource(R.drawable.empty_battery);
 	}
 }
