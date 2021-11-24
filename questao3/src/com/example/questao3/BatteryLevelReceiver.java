@@ -1,4 +1,4 @@
-package com.example.helloaosp;
+package com.example.questao3;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.graphics.drawable.AnimationDrawable;
 
 public class BatteryLevelReceiver extends BroadcastReceiver {
 
-	private static final String TAG = "HelloAosp";
+	private static final String TAG = "questao3";
 	private BroadcastListener bl;
 
 	@Override

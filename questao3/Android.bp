@@ -1,6 +1,6 @@
 android_app {
 
-    name: "HelloAosp",
+    name: "questao3",
 
     vendor: true,
 
