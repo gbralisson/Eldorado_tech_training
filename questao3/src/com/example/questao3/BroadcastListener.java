@@ -1,4 +1,4 @@
-package com.example.helloaosp;
+package com.example.questao3;
 
 public interface BroadcastListener {
 	public void setFullAnimation();
