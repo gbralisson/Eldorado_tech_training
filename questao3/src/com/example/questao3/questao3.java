@@ -1,4 +1,4 @@
-package com.example.helloaosp;
+package com.example.questao3;
 
 import android.app.Activity;
 import android.widget.TextView;
@@ -13,8 +13,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.BroadcastReceiver;
-
-public class HelloAosp extends Activity implements BroadcastListener
+public class questao3 extends Activity implements BroadcastListener
 {
 	private TextView txt;
 	private Button btn;
@@ -24,7 +23,7 @@ public class HelloAosp extends Activity implements BroadcastListener
 	
 	BatteryLevelReceiver receiver;
 	
-	private static final String TAG = "HelloAosp";
+	private static final String TAG = "questao3";
 	
     /** Called when the activity is first created. */
     @Override
@@ -33,10 +32,10 @@ public class HelloAosp extends Activity implements BroadcastListener
         super.onCreate(savedInstanceState);
         
         Log.i(TAG, "Inicio");
-        setContentView(R.layout.activity_helloaosp);
+        setContentView(R.layout.activity_questao3);
 
         txt = findViewById(R.id.txt);
-        txt.setText( "Hello AOSP!! This is the final exercise" );
+        txt.setText( "Questão 3!!! Este é o penúltimo exercício!" );
         
         img = findViewById(R.id.spinning_wheel_image);
         

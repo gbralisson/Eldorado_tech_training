@@ -1,0 +1,6 @@
+cc_binary {
+    name: "questao2",
+    vendor: true,
+    srcs: ["questao2.cpp"],
+    shared_libs: ["liblog","libziparchive"],
+}
