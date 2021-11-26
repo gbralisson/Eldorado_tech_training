@@ -1,7 +1,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86_64.mk)
 
-PRODUCT_NAME := gabriel
-PRODUCT_DEVICE := gabriel
+PRODUCT_NAME := gabriel_maia
+PRODUCT_DEVICE := gabriel_maia
 PRODUCT_BRAND := Android
 PRODUCT_MODEL  := AOSP gabriel Emulator
 

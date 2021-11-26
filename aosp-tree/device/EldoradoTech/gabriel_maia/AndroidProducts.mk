@@ -1,6 +1,6 @@
 PRODUCT_MAKEFILES := \
-  $(LOCAL_DIR)/gabriel.mk
+  $(LOCAL_DIR)/gabriel_maia.mk
 
 COMMON_LUNCH_CHOICES :=	\
-gabriel-eng	\
-gabriel-userdebug
+gabriel_maia-eng	\
+gabriel_maia-userdebug
