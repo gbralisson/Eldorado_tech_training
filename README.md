@@ -22,8 +22,13 @@ Crie toda a estrutura necessária para a implementação de um serviço para o f
 android.
 
 Integrantes do grupo:
-Gabriel Alisson 
+
+Gabriel Alisson
+ 
 Gabriel Maia
+
 Henry Miller
-Jonas Moreira 
+
+Jonas Moreira
+
 José Ricardo
